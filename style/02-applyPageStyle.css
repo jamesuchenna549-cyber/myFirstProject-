@@ -1,0 +1,210 @@
+*{
+  padding:0;
+  margin :0;
+  box-sizing : border-box;
+}
+
+.nav-container{
+  display :flex;
+  flex-direction : column;
+  paddig:10px;
+  
+}
+.first-nav-container{
+  display :flex;
+  flex-direction : row;
+  justify-content: space-between;
+  margin : 2px 5px;
+ 
+  height:50px;
+  
+
+}
+.image-logo{
+  height: 100%;
+  width:160px;
+  overflow : hidden ;
+  
+}
+
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit :cover;
+}
+
+
+
+
+#input-search-box{
+  padding :2px;
+  width:150px;
+  outline :none;
+}
+
+#buton {
+  border:1px solid black;
+  padding:2px;
+  color:#74747e;
+  font-weight:800;
+  font-size:12px;
+  font-style:italic;
+  cursor : pointer;
+  width: 55px;
+  border-radius: 2px;
+  background-color: white;
+}
+.second-navigation{
+  display :flex;
+  flex-direction : row;
+  border:2px solid #494d58;
+  height: 20px;
+   margin : 2px 5px;
+  justify-content: space-between ;
+  align-items: center ;
+  font-size:5px;
+  padding :2px;
+  background-color:#494d58;
+  text-align : center ;
+  
+ 
+  
+}
+
+.secondNav a{
+  border:2px solid #eaeaff91;
+  padding:2px;
+  text-decoration :none;
+  color : White ;
+  border-top:none;
+  border-bottom:none;
+}
+
+.apply-main-container{
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  
+}
+
+.side-bar{
+  background-color: white;
+  height: 800px;
+  width: 140px;
+  border:1px solid #292926fb;
+  margin-right:5px;
+  border-left:none;
+ 
+}
+
+.Apply-admission-texts{
+  padding : 15px;
+  font-size:5px;
+  display : flex ;
+  flex-direction : column ;
+  gap:50px;
+  border:2px solid 9999a7dd;
+  background-color:#cfcfcf72;
+  
+}
+
+
+.Apply-admission-texts ul {
+  list-style-type: square;  
+  padding-left: 20px;        
+}
+
+.Apply-admission-texts li {
+  margin-bottom: 4px;        
+}
+
+.Apply-post-jamb-text{
+  font-weight: bold;
+  border:1px solid #9999a7dd;
+  text-align : center ;
+  background-color:#9999a7dd;
+  color : white ;
+  font-size:10px;
+  height: 50px;
+  padding :15px ;
+} 
+
+.admission{
+  font-size:11px;
+  font-weight :800;
+  text-align: center;
+  border:1px solid #ffffff5b  ;
+  background-color:#494d58;
+  color:#9999a7dd;
+  
+}
+
+.banner{
+  border:1px solid #ffffff5b  ;
+  background-color: #ffffff5b;
+  font-size:11px;
+  font-weight :800;
+  text-align: center;
+  animation : bannerEffect 2s ease-in-out
+  infinite ;
+  color:#0038d9e0;
+}
+
+@keyframes bannerEffect{
+  0%{
+  opacity :0.2;
+    
+  }
+  50%{
+   
+    opacity:0.6;
+  }
+  100%{
+    
+    opacity :1;
+  }
+  
+}
+
+.copyright{
+  border:2px solid #e8e8e872;
+  padding :px;
+  background-color:#e8e8e872;
+  font-size:12px;
+  text-align: center ;
+  margin:10px;
+  border-radius :5px;
+  color :#3958e4a6;
+  font-weight :600;
+}
+.Apply-image-logo, img{
+  height: 100%;
+  width:180px;
+  overflow : hidden ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
